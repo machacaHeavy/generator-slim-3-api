@@ -41,7 +41,7 @@ module.exports = class extends Generator {
           type: 'input',
           name: 'role',
           message: 'Rol',
-          default: 'Developer'
+          default: 'developer'
         },
         {
           type: 'input',
