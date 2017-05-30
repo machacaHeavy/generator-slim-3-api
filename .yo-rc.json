@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "José Gildardo Solis",
+      "authorEmail": "gildardo.gs5@gmail.com",
+      "authorUrl": ""
+    }
+  }
+}
