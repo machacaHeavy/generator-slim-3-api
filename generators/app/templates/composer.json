@@ -1,0 +1,27 @@
+{
+    <% if (name) { %>"name": "<%= name %>",<% } %>
+    <% if (description) { %>"description": "<%= description %>",<% } %>
+    <% if (license) { %>"license": "<%= license %>",<% } %>
+    <% if (author) { %>"authors": [
+        {
+            "name": "<%= author %>",
+            <% if(email) { %>"email": "<%= email %>",<% } %>
+            <% if(role) { %>"role" : "<%= role %>"<% } %>
+        }
+    ],<% } %>
+    "require": {
+        "katzgrau/klogger": "^1.2",
+        "gs/slim-api" : "dev-master"
+    },
+    "repositories" : [ 
+        {
+            "type" : "vcs",
+            "url"  : "https://github.com/machacaHeavy/slim-api"
+        }
+    ],
+    <% if(folder) { %>"autoload" : {
+        "psr-4" : {
+            "<%= folderNamespace %>\\" : "<%= folder %>"
+        }
+    }<% } %>
+}

@@ -1,29 +1,30 @@
 {
   "name": "generator-slim-3-api",
   "version": "0.0.0",
-  "description": "Slim 3 api generator",
-  "homepage": "",
+  "description": "Slim 3 Api Generator",
+  "homepage": "https://github.com/machacaHeavy/",
   "author": {
     "name": "José Gildardo Solis",
     "email": "gildardo.gs5@gmail.com",
-    "url": ""
+    "url": "https://github.com/machacaHeavy/"
   },
   "files": [
     "generators"
   ],
   "main": "generators/index.js",
   "keywords": [
-    "",
+    "slim3",
     "yeoman-generator"
   ],
   "devDependencies": {
-    "yeoman-test": "^1.6.0",
-    "yeoman-assert": "^3.0.0",
-    "nsp": "^2.6.3",
+    "ejs-lint": "^0.3.0",
     "eslint": "^3.18.0",
     "eslint-config-xo-space": "^0.16.0",
     "jest": "^19.0.2",
-    "jest-cli": "^20.0.0"
+    "jest-cli": "^20.0.0",
+    "nsp": "^2.6.3",
+    "yeoman-assert": "^3.0.0",
+    "yeoman-test": "^1.6.0"
   },
   "dependencies": {
     "yeoman-generator": "^1.0.0",
@@ -45,6 +46,6 @@
       "node": true
     }
   },
-  "repository": "machacaHeavy/generator-slim-3-api",
+  "repository": "https://github.com/machacaHeavy/generator-slim-3-api",
   "private": true
 }
